@@ -1,0 +1,10 @@
+{
+  "manifest_version": 2,
+  "name": "Focus Mode",
+  "version": "1.0",
+  "description": "Blocks specified websites during focus mode and redirects them to specified URLs alternatively",
+  "permissions": ["webRequest", "webRequestBlocking", "<all_urls>", "storage"],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
